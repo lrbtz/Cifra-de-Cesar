@@ -19,7 +19,7 @@ if (escolha == 1):
       return letra #se o índice que está sendo verificado for outro símbolo, o mesmo será mantido.
   #entrada de dados
   chave = int(input('chave da cifra: '))
-  letra = input('Frase ou letra: ')
+  letra = input('Frase ou letra: ').lower()
 
   lista_aux = []
   for letra in list(letra): #colocada todas as letras dentro de uma lista para formar a frase
@@ -42,7 +42,7 @@ elif (escolha == 2):
     else:
       return letra
   chave = int(input('chave da cifra: '))
-  letra = input('Frase ou letra: ')
+  letra = input('Frase ou letra: ').lower()
 
   lista_aux = []
   for letra in list(letra):
